@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>VR</title>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="VRpage.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="description" content="Hello, World! - A-Frame">
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+<div class="text">
+<div class="container">
+ <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projectpage.html">Blog</a></li>
+              <li class="active"><a href="VRpage.html">VR</a></li>
+              </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <a-scene>
+    <a-entity camera look-controls wasd-controls></a-entity>
+      <a-icosahedron src="https://i.imgur.com/mYmmbrp.jpg" rotation="45 45 45" scale="2 2 2" position="0 2 -5" >
+        <a-sky color="#404040"></a-sky>
+        <a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2200"
+        repeat="indefinite"></a-animation>
+      </a-icosahedron>
+      <a-text value="Hello, I am Bob." color="#404040"
+        position="-1 0.2 -3" scale="1.5 1.5 1.5"></a-text>
+  <a-animation attribute="scale" begin="mouseenter" dur="300" to="2.3 2.3 2.3"></a-animation>
+  <a-animation attribute="scale" begin="mouseleave" dur="300" to="2 2 2"></a-animation>
+  <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
+</a-box>
+ <a-camera>
+    <a-cursor></a-cursor>
+  </a-camera>
+  <a-assets>
+   <audio src="thunder.wav" autoplay="true" loop></audio>
+   </a-assets>
+
+
+      <a-plane color="#333333" rotation="-90 0 0" width="30" height="30"></a-plane>
+       <a-light type="ambient" color="#bfbfbf"></a-light>
+
+    </a-scene>
+  </body>
+</html>

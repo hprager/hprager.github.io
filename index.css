@@ -1,0 +1,68 @@
+body{
+	background-color: #F5F5F5;
+}
+
+.display-3{
+	color: #F6F7EB;
+}
+
+.row{
+	padding-left: 50px;
+}
+
+.introimg{
+	padding-left: 50px;
+}
+
+.rossimg{
+	padding-left: 50px;
+}
+
+.goalimg{
+	padding-left: 50px;
+}
+
+.sailingimg{
+	padding-left: 50px;
+}
+
+.instagram{
+	padding-top: 60px;
+	padding-left: 600px;
+}
+
+a{
+	color: #3F7FBF;
+	
+}
+
+.text{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+	font-size: 35px;
+}
+
+p{
+	font-size: 20px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+li{
+	font-size: 20px;
+}
+
+.fa{
+	background: #3B5998;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+
+
+}
+
