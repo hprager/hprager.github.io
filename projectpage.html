@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="projectpage.css">
+    
+    <script src="myscripts.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <font color="#262626">
 </head>
@@ -14,7 +17,7 @@
 <div class="container">
  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-          <div class="navbar-header">
+          <div class="navbar-header" >
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -31,6 +34,36 @@
           </div>
       </div>
   </div>
+</div>
+
+<span  style="padding-left: 30px; font-size:30px;cursor:pointer"  onclick="openNav()">&#9776;</span>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="navitems">
+  <a href="#row12">2018 Ilab Field Academy</a>
+  <a href="#row11">Cooper Hewit Design Challenge</a>
+  <a href="#row10">Littlebits Sensors</a>
+  <a href="#row9">Artificial Intelligence Immersion</a>
+  <a href="#row8">NYC Media Immersion</a>
+  <a href="#row7">Future Tech: VR Immersion</a>
+  <a href="#row6">Woodworking: Building a Lamp</a>
+  <a href="#row5">Prusa I3 MK2s Update</a>
+  <a href="#row4">Innovation Lab Project/ Module One</a>
+  <a href="#row3">I lab Field Academy Projects</a>
+  <a href="#row2">Design Thinking Activity</a>
+  <a href="#row">Technology Immersion Workshop</a>
+</div>
+</div>
+
+
+<div class="container">
+
+  
+
+<!-- Use any element to open the sidenav -->
+
+<div id="main">
 
 
 
@@ -39,7 +72,77 @@
 
 
 
-<div class="row11">
+
+<div id="row12">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>2018 Ilab Field Academy</h1>
+
+            
+            
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on March, 19 2017 at 1:30PM</p>
+
+
+
+
+
+
+                <hr>
+
+                <!-- Preview Image -->
+                <div class=col-lg-12>
+                <img class="12" src="images/swagcar.jpg" height="300px" width="300px" alt="">
+                <img class="12" src="images/plane2.jpg" height="300px" width="300px" alt="">
+                
+                </div>
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead">My next Ilab Project</p>
+                <p class="paragraphs">
+             For this year's field academy I did the Ilab course again. Since I am already in the regular academy I was allowed to work on an independent project for the duration of the course. I decided to work with my friend on building another rc plane from scratch. I also wanted to work on one of my rc cars, and we also had to upgrade the Prusa i3 to the multi material version. For the plane, we downloaded plans from online and cut the parts out of foam board. Once all the parts were cut we started gluing together the plane. We wanted to try to reuse the electronics that we had, however we couldn't get them to work properly. Also we glued the wing in prematurely, making it extremely hard to install the servos. After we finally finished all the electronics we tried to test fly it. Unfortunately the thrust angle of the motor was incorrect, causing it to crash immediatly, breaking one of two propellers. The connection between the two sides of the elevator was also broken causing the free side to act as an aileron. Currently we are working on other things but I hope to get it flying soon.
+                 
+</p>
+
+            <p>
+            For my rc car we did some maintenance on it, and we replaced some broken parts. I also painted a new body for it as the old one was very scratched up. The Ilab recently ordered the multi material upgrade for the prusa i3 that I built last year. We started installing the new upgrade over field academy and finished it a couple days ago. We are currently waiting for more filament to test it out. This year's field academy was very fun especially when we got to test out our creations.
+
+            </p>
+
+
+
+            
+
+                <hr>
+
+                <hr>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+ 
+
+
+
+
+
+
+
+
+
+
+<div id="row11">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -49,10 +152,8 @@
                 <!-- Title -->
                 <h1>Cooper Hewit Design Challenge</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+            
+            
 
                 <hr>
 
@@ -68,8 +169,8 @@
 
                 <!-- Preview Image -->
                 <div class=col-lg-12>
-                <img class="sensors" src="images/Ultrasonic Sensor Belt.jpg" height="300px" width="300px" alt="">
-                <img class="sensors" src="images/dp.jpg" height="300px" width="300px" alt="">
+                <img class="11" src="images/Ultrasonic Sensor Belt.jpg" height="300px" width="300px" alt="">
+                <img class="11" src="images/dp.jpg" height="300px" width="300px" alt="">
                 
                 </div>
 
@@ -109,7 +210,7 @@
 
 
 
-<div class="row10">
+<div id="row10">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -118,11 +219,6 @@
 
                 <!-- Title -->
                 <h1>Littlebits Sensors</h1>
-
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
 
                 <hr>
 
@@ -184,7 +280,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row9">
+<div id="row9">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -194,10 +290,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Artificial Intelligence Immersion</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+               
 
                 <hr>
 
@@ -257,7 +350,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row8">
+<div id="row8">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -267,10 +360,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>NYC Media Immersion</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+                
 
                 <hr>
 
@@ -325,7 +415,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row7">
+<div id="row7">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -335,10 +425,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Future Tech: VR Immersion</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+                
 
                 <hr>
 
@@ -407,7 +494,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row6">
+<div id="row6">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -417,10 +504,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Woodworking: Building a Lamp</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+                
 
                 <hr>
 
@@ -470,7 +554,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row5">
+<div id="row5">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -480,10 +564,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Prusa I3 MK2s Update</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+               
 
                 <hr>
 
@@ -533,7 +614,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row4">
+<div id="row4">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -543,10 +624,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Innovation Lab Project/ Module One</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+               
 
                 <hr>
 
@@ -598,7 +676,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row3">
+<div id="row3">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -608,10 +686,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>I lab Field Academy Projects</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+               
 
                 <hr>
 
@@ -656,7 +731,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-<div class="row2">
+<div id="row2">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -666,10 +741,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Design Thinking Activity</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+              
 
                 <hr>
 
@@ -710,7 +782,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
 
 
 
-        <div class="row1">
+        <div id="row1">
 
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
@@ -720,10 +792,7 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
                 <!-- Title -->
                 <h1>Technology Immersion Workshop</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="index.html">Harry Kayaprager</a>
-                </p>
+              
 
                 <hr>
 
@@ -771,8 +840,8 @@ I’m not sure how valuable this sensor could be in the real world, but for any 
         </footer>
 
     </div>
-    </div>
     </font>
-
+</div>
+</div>
 </body>
 </html>

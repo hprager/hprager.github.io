@@ -3,7 +3,7 @@ body{
 }
 
 .display-3{
-	color: #F6F7EB;
+	color: #F5F5F5;
 }
 
 .row{
@@ -54,15 +54,5 @@ h1{
 
 li{
 	font-size: 20px;
-}
-
-.fa{
-	background: #3B5998;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    width: 50px;
-
-
 }
 
