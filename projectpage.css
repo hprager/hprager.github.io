@@ -23,8 +23,13 @@ a{
 	
 }
 
+.projectrow {
+    padding-top: 70px;
+}
+
 .text{
 	font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
 
 }
 
