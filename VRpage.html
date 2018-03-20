@@ -30,16 +30,19 @@
       </div>
   </div>
 </div>
-    </div>
+</div>
+    
     <a-scene>
     <a-entity camera look-controls wasd-controls></a-entity>
       <a-icosahedron src="https://i.imgur.com/mYmmbrp.jpg" rotation="45 45 45" scale="2 2 2" position="0 2 -5" >
-        <a-sky color="#404040"></a-sky>
+        <a-sky color="#04384A"></a-sky>
         <a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2200"
         repeat="indefinite"></a-animation>
       </a-icosahedron>
-      <a-text value="Hello, I am Bob." color="#404040"
+      <a-text value="Hello, I am Bob." color="#EFF1F3"
         position="-1 0.2 -3" scale="1.5 1.5 1.5"></a-text>
+       
+
   <a-animation attribute="scale" begin="mouseenter" dur="300" to="2.3 2.3 2.3"></a-animation>
   <a-animation attribute="scale" begin="mouseleave" dur="300" to="2 2 2"></a-animation>
   <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
@@ -52,7 +55,7 @@
    </a-assets>
 
 
-      <a-plane color="#333333" rotation="-90 0 0" width="30" height="30"></a-plane>
+      <a-plane color="#0B90AA" rotation="-90 0 0" width="30" height="30"></a-plane>
        <a-light type="ambient" color="#bfbfbf"></a-light>
 
     </a-scene>
